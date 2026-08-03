@@ -8,10 +8,17 @@
 
 **End-to-end Data Science project** analyzing real-world Swiggy food delivery data across 28 Indian cities (January–August 2025). The project covers the complete data science lifecycle: data cleaning, feature engineering, exploratory data analysis (EDA), statistical analysis, unsupervised learning (K-Means clustering), supervised learning (Linear Regression), business insights, and actionable recommendations.
 
+## About the Project
+
+This project is developed using **Python** and popular Data Science libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn.
+
+The main objective is to analyze Swiggy's food delivery data across 28 Indian cities, perform clustering, and build a price prediction model.
+
 ---
 
 ## Table of Contents
 
+- [About the Project](#about-the-project)
 - [Project Overview](#project-overview)
 - [Dataset Description](#dataset-description)
 - [Project Structure](#project-structure)
@@ -65,25 +72,14 @@ This project performs a comprehensive analysis of nearly **200,000 dish listings
 
 ## Project Structure
 
-```
-Swiggy-Food-Delivery-Data-Analysis-2025/
-├── data/
-│   └── swiggy_data2025.csv              # Raw dataset
-├── notebooks/
-│   └── 01_end_to_end_analysis.ipynb     # Main analysis notebook
-├── src/
-│   ├── __init__.py
-│   ├── data_preprocessing.py            # Cleaning & feature engineering
-│   ├── eda_utils.py                     # Reusable EDA functions
-│   └── modeling.py                      # Clustering & regression utilities
-├── reports/
-│   └── executive_summary.md             # Key insights summary
-├── outputs/
-│   └── figures/                         # Generated plots (saved during run)
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
+The repository is organized in a simple and clean way:
+
+- **data/** – Contains the raw Swiggy dataset (`swiggy_data2025.csv`)
+- **notebooks/** – Main Jupyter notebook with the complete end-to-end analysis
+- **src/** – Reusable Python modules for data preprocessing, EDA utilities, and machine learning models
+- **reports/** – Executive summary of key findings and business insights
+- **outputs/figures/** – Folder where all generated plots are saved
+- Root files include `requirements.txt`, `.gitignore`, `LICENSE`, and this `README.md`
 
 ---
 
