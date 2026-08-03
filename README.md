@@ -8,14 +8,6 @@
 
 **End-to-end Data Science project** analyzing real-world Swiggy food delivery data across 28 Indian cities (January–August 2025). The project covers the complete data science lifecycle: data cleaning, feature engineering, exploratory data analysis (EDA), statistical analysis, unsupervised learning (K-Means clustering), supervised learning (Linear Regression), business insights, and actionable recommendations.
 
-## About the Project
-
-This project is developed using **Python** and popular Data Science libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn.
-
-The main objective is to analyze Swiggy's food delivery data across 28 Indian cities, perform clustering, and build a price prediction model.
-
----
-
 ## Table of Contents
 
 - [About the Project](#about-the-project)
@@ -34,7 +26,13 @@ The main objective is to analyze Swiggy's food delivery data across 28 Indian ci
 - [Author](#author)
 
 ---
+## About the Project
 
+This project is developed using **Python** and popular Data Science libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn.
+
+The main objective is to analyze Swiggy's food delivery data across 28 Indian cities, perform clustering, and build a price prediction model.
+
+---
 ## Project Overview
 
 This project performs a comprehensive analysis of nearly **200,000 dish listings** from Swiggy across major Indian cities. The goal is to uncover pricing patterns, rating behaviors, category popularity, geographic trends, and to segment dishes for strategic decision-making.
